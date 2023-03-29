@@ -1,0 +1,130 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+header{
+    width: 1000px;
+    color: black;
+}
+
+h1{
+    color: darkorange;
+    margin: 0;
+    font-size: 46px;
+    padding-left: 10px;
+    padding-top: 10PX;
+    background-color: black;
+}
+
+header div{
+    display: block;
+}
+
+
+
+
+header ul{
+    display: flex;
+    margin: 0px;
+    font-size: 10px;
+    background-color: rgba(255, 140, 0,0.5);
+    padding: 0;
+}
+
+.nav-list{
+    list-style: none; 
+    font-size: 1.2rem;
+    width: 130px;
+    text-align: center;
+
+}
+
+header ul li:link,header ul li:active,header ul li:visited{
+    color: #000;
+    text-decoration: none;
+    
+}
+
+
+
+header ul li:hover{
+    background-color: darkgoldenrod;
+    color: black;
+    box-shadow: 1 -1 5px 1px;
+}
+
+.content-area{
+    display:flex;
+    background-color: rgba(255, 140, 0,0.5);
+}
+ 
+.header-color{background-color:darkorange;}
+a{ text-decoration:none;color: black;
+display: block;
+} 
+
+a:hover{ text-decoration:none}
+
+.nav-color{background-color: rgba(255, 140, 0,0.5);}
+
+h2{
+    margin: 0px;
+}
+
+section{
+    flex: 2;
+    min-height: 500px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin: auto;
+    border-left: 2px dotted #000;
+    z-index: 1;
+}
+
+
+img{
+    float: left;
+    padding: 10px;
+}
+
+section p{
+    font-size: 1.5em;
+}
+
+aside{
+    flex: 1;
+    min-height: 500px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    margin: auto;
+    border-left: 2px dotted #000;
+    border-right: 2px dotted #000;
+    margin: 0;
+}
+
+aside h3{
+    margin: 0;
+    background-color: #000;
+    color: darkorange;
+    font-size: 22.5px;
+}
+
+footer{
+    height: 50PX;
+    background-color: darkorange;
+    border-top: 2px solid #000;
+
+}
+
+footer h4{
+    margin: 0;
+    text-align: start;
+
+}
